@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'sh Hello.py'
+            echo 'Hello Build Completed'
           }
         }
 
